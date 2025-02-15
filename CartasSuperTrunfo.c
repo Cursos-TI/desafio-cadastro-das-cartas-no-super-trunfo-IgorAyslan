@@ -10,7 +10,7 @@ int main() {
     char CodigodaCidade;
     char NomedaCidade [30];
     int população;
-    double área;
+    double area;
     float PIB;
     int PontosTuristicos;
     
@@ -19,24 +19,24 @@ int main() {
     scanf("%c", &CodigodaCidade);
 
     printf("Nome da cidade\n");
-    scanf("%s",NomedaCidade);
+    scanf("%s",&NomedaCidade);
 
     printf("Qual é a população?\n");
-    scanf("%d", população);
+    scanf("%d", &população);
 
     printf("Qual o tamanho da área?\p");
-    scanf("%e", área);
+    scanf("%e", &area);
 
     printf("Qual o PIB desta cidade?\n");
-    scanf("%3.3f", PIB);
+    scanf("%3.3f", &PIB);
 
     printf("Possui quantos pontos turísticos?\n");
-    scanf("%d", PontosTuristicos);
+    scanf("%d", &PontosTuristicos);
 
     printf("Esta é a sua cidade!\n");
     printf("Nome da cidade: %s - Código: %c\n", NomedaCidade, CodigodaCidade);
     printf("População: %d\n", população);
-    printf("Área: %e\n", área);
+    printf("Área: %e\n", area);
     printf("PIB: %3.3f\n", PIB);
     printf("Pontos turísticos: %d\n", PontosTuristicos);
 
