@@ -7,22 +7,26 @@
 //Teste larissa
 
 int main() {
-    char CodigodaCidade;
+    char Estado;
+    char CodigodaCidade [3];
     char nomedacidade [30];
     int populacao;
-    double area;
+    float area;
     float PIB;
     int PontosTuristicos;
     
     printf;("Bem-vindo ao Super Trunfo: Edição Países!\n");
-    printf("Digite o código da cidade\n");
-    scanf("%c", &CodigodaCidade);
+    printf("Qual o código do estado?\n");
+    scanf("%c", &Estado);
+
+    printf("E o código da cidade\n");
+    scanf("%s", &CodigodaCidade);
 
     printf("Nome da cidade\n");
     scanf("%s",&nomedacidade);
 
     printf("Qual é a população?\n");
-    scanf("%d", &populacao);
+    scanf("%f", &populacao);
 
     printf("Qual o tamanho da área?\n");
     scanf("%d", &area);
@@ -34,9 +38,10 @@ int main() {
     scanf("%d", &PontosTuristicos);
 
     printf("Esta é a sua cidade!\n");
+    //faltando adicionar o código do estado
     printf("Nome da cidade: %s\n", nomedacidade);
-    printf("Codigo da cidade: %c\n", CodigodaCidade);
-    printf("População: %d\n", populacao);
+    printf("Codigo da cidade: %s\n", CodigodaCidade);
+    printf("População: %f\n", populacao);
     printf("Área: %d\n", area);
     printf("PIB: %.2f\n", PIB);
     printf("Pontos turísticos: %d\n", PontosTuristicos);
