@@ -8,8 +8,8 @@
 
 int main() {
     char Estado;
-    char CodigodaCidade [3];
-    char nomedacidade [30];
+    char CodigodaCarta [4];
+    char nomedacidade [38];
     int populacao;
     float area;
     float PIB;
@@ -19,17 +19,17 @@ int main() {
     printf("Qual o código do estado?\n");
     scanf("%c", &Estado);
 
-    printf("E o código da cidade\n");
-    scanf("%s", &CodigodaCidade);
+    printf("Qual o código da carta?\n");
+    scanf("%s", &CodigodaCarta);
 
     printf("Nome da cidade\n");
     scanf("%s",&nomedacidade);
 
     printf("Qual é a população?\n");
-    scanf("%f", &populacao);
+    scanf("%d", &populacao);
 
     printf("Qual o tamanho da área?\n");
-    scanf("%d", &area);
+    scanf("%f", &area);
 
     printf("Qual o PIB desta cidade?\n");
     scanf("%f", &PIB);
@@ -38,11 +38,11 @@ int main() {
     scanf("%d", &PontosTuristicos);
 
     printf("Esta é a sua cidade!\n");
-    //faltando adicionar o código do estado
+    printf("Estado: %c\n", Estado);
+    printf("Código da carta: %s\n", CodigodaCarta);
     printf("Nome da cidade: %s\n", nomedacidade);
-    printf("Codigo da cidade: %s\n", CodigodaCidade);
-    printf("População: %f\n", populacao);
-    printf("Área: %d\n", area);
+    printf("População: %d\n", populacao);
+    printf("Área: %.2f\n", area);
     printf("PIB: %.2f\n", PIB);
     printf("Pontos turísticos: %d\n", PontosTuristicos);
 
