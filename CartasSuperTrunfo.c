@@ -2,6 +2,7 @@
 
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
+
 //Abaixo são as variaveis que irei utilizar no meu jogo.
 
 int main() {
@@ -13,7 +14,8 @@ int main() {
     float PIB;
     int PontosTuristicos;
 
-    //Aqui sãos as solicitações de dados que iremos pedir ao usuário.
+    //Aqui sãos as solicitações de dados que iremos pedir para que o úsuario digito no terminal.
+    //Uma solicitação por vez
     printf;("Bem-vindo ao Super Trunfo: Edição Países!\n");
     printf("Qual o código do estado?\n");
     scanf("%c", &Estado);
@@ -36,7 +38,7 @@ int main() {
     printf("Possui quantos pontos turísticos?\n");
     scanf("%d", &PontosTuristicos);
 
-    //Aqui são os dados que foram inseridos e retornarão a tela no Terminal do úsuario, uma dado a cada linha.
+    //Estes são os dados que foram inseridos pelo úsuario e irão ser impressos na tela no terminal, sendo uma dado por linha.
     printf("Esta é a sua cidade!\n");
     printf("Estado: %c\n", Estado);
     printf("Código da carta: %s\n", CodigodaCarta);
