@@ -15,7 +15,7 @@ int main() {
     int PontosTuristicos;
 
     //Aqui sãos as solicitações de dados que iremos pedir para que o úsuario digito no terminal.
-    //Uma solicitação por vez
+    //Primeiro irá ser apresentado na tela o texto solicitando o dado para o usuário e na linha debaixo o espaço para que ele digite.
     printf;("Bem-vindo ao Super Trunfo: Edição Países!\n");
     printf("Qual o código do estado?\n");
     scanf("%c", &Estado);
@@ -38,8 +38,9 @@ int main() {
     printf("Possui quantos pontos turísticos?\n");
     scanf("%d", &PontosTuristicos);
 
-    //Estes são os dados que foram inseridos pelo úsuario e irão ser impressos na tela no terminal, sendo uma dado por linha.
-    printf("Esta é a sua cidade!\n");
+    //Esta é a impressão dos dados que o usuário preencheu anteriormente.
+    //Cada váriavel será impressa da seguinte forma: Texto para identificar, formato que será impresso e a variavel a ser impressa.
+    printf("Carta cadastrada!\n");
     printf("Estado: %c\n", Estado);
     printf("Código da carta: %s\n", CodigodaCarta);
     printf("Nome da cidade: %s\n", nomedacidade);
