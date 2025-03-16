@@ -43,8 +43,9 @@ int main() {
 
     // Agora serão pedido os dados da carta 2
     printf("\n**Cadastro da carta 2**\n");
+
     printf("Qual o código do estado?\n");
-    scanf("%c", &Estado2);
+    scanf(" %c", &Estado2);
 
     printf("Qual o código da carta?\n");
     scanf("%s", &CodigodaCarta2);
