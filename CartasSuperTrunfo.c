@@ -11,7 +11,7 @@ int main() {
     char nomedacidade1 [38], nomedacidade2 [38];
     int populacao1, populacao2;
     float area1, area2;
-    float PIB1, PIB2 ;
+    float PIB1, PIB2;
     int PontosTuristicos1, PontosTuristicos2;
     int DensidadePopulacional1, DensidadePopulacional2;
 
@@ -19,7 +19,7 @@ int main() {
     //Primeiro irá ser apresentado na tela o texto solicitando o dado para o usuário e na linha debaixo o espaço para que ele digite.
     //Carta 1
     printf;("Bem-vindo ao Super Trunfo: Edição Países!\n");
-    printf("Carta 1\n");
+    printf("**Cadastro da carta 1**\n");
     printf("Qual o código do estado?\n");
     scanf("%c", &Estado1);
 
@@ -42,6 +42,27 @@ int main() {
     scanf("%d", &PontosTuristicos1);
 
     // Agora serão pedido os dados da carta 2
+    printf("\n**Cadastro da carta 2**\n");
+    printf("Qual o código do estado?\n");
+    scanf("%c", &Estado2);
+
+    printf("Qual o código da carta?\n");
+    scanf("%s", &CodigodaCarta2);
+
+    printf("Nome da cidade\n");
+    scanf("%s",&nomedacidade2);
+
+    printf("Qual é a população?\n");
+    scanf("%d", &populacao2);
+
+    printf("Qual o tamanho da área?\n");
+    scanf("%f", &area2);
+
+    printf("Qual o PIB desta cidade?\n");
+    scanf("%f", &PIB2);
+
+    printf("Possui quantos pontos turísticos?\n");
+    scanf("%d", &PontosTuristicos2);
 
     //Esta é a impressão dos dados que o usuário preencheu anteriormente da carta 1.
     //Cada váriavel será impressa da seguinte forma: Texto para identificar, formato que será impresso e a variavel a ser impressa.
